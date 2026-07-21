@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe Studio — Hair Salon & Booking</title>
+  <meta name="description" content="Luxe Studio is an upscale hair salon offering cuts, color, and treatments. Book your appointment online with our award-winning stylists." />
+  <meta name="theme-color" content="#f4ede2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Luxe Studio home">
+        <span class="brand-mark">✦</span>
+        <span class="brand-name">Luxe Studio</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#stylists">Stylists</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#book">Contact</a>
+      </nav>
+      <a href="#book" class="btn btn-primary header-cta">Book Now</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+      <a href="#services">Services</a>
+      <a href="#stylists">Stylists</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#book">Contact</a>
+      <a href="#book" class="btn btn-primary">Book Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Est. 2014 · Downtown Studio</p>
+          <h1>Where your best look begins.</h1>
+          <p class="lead">An intimate, award-winning salon dedicated to precision cuts, luminous color, and treatments that make you feel entirely yourself.</p>
+          <div class="hero-actions">
+            <a href="#book" class="btn btn-primary btn-lg">Book Appointment</a>
+            <a href="#services" class="btn btn-ghost btn-lg">View Services</a>
+          </div>
+          <dl class="hero-stats">
+            <div><dt>10+</dt><dd>Years of craft</dd></div>
+            <div><dt>4.9★</dt><dd>Client rating</dd></div>
+            <div><dt>8k+</dt><dd>Happy clients</dd></div>
+          </dl>
+        </div>
+        <div class="hero-media">
+          <img src="images/salon-hero.png" alt="Interior of Luxe Studio salon with styling chairs and warm natural light" />
+          <div class="hero-badge">
+            <span class="hero-badge-title">Open Today</span>
+            <span class="hero-badge-sub">9:00 AM – 7:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">What we do</p>
+          <h2>Services crafted around you</h2>
+          <p class="section-sub">From a quick refresh to a full transformation, every appointment is tailored to your hair and your lifestyle.</p>
+        </header>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-img"><img src="images/service-cut.png" alt="Stylist cutting a client's hair" /></div>
+            <div class="service-body">
+              <h3>Cut &amp; Style</h3>
+              <p>Consultation-led precision cuts and finishing tailored to your face and texture.</p>
+              <span class="service-price">from $65</span>
+            </div>
+          </article>
+          <article class="service-card">
+            <div class="service-img"><img src="images/service-color.png" alt="Colorist applying balayage highlights" /></div>
+            <div class="service-body">
+              <h3>Color &amp; Balayage</h3>
+              <p>Dimensional, low-maintenance color from subtle gloss to full transformations.</p>
+              <span class="service-price">from $120</span>
+            </div>
+          </article>
+          <article class="service-card">
+            <div class="service-img"><img src="images/service-treatment.png" alt="Client receiving a relaxing scalp treatment" /></div>
+            <div class="service-body">
+              <h3>Treatments &amp; Care</h3>
+              <p>Restorative masks, scalp therapy, and gloss treatments for lasting shine.</p>
+              <span class="service-price">from $45</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stylists -->
+    <section class="section section-alt" id="stylists">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Meet the team</p>
+          <h2>Stylists who listen first</h2>
+          <p class="section-sub">Our senior team brings decades of combined experience and a genuine love for the craft.</p>
+        </header>
+        <div class="stylist-grid">
+          <article class="stylist-card">
+            <img src="images/stylist-1.png" alt="Portrait of stylist Ava Bennett" />
+            <h3>Ava Bennett</h3>
+            <p>Creative Director · Cutting</p>
+          </article>
+          <article class="stylist-card">
+            <img src="images/stylist-2.png" alt="Portrait of stylist Marcus Reid" />
+            <h3>Marcus Reid</h3>
+            <p>Senior Stylist · Texture</p>
+          </article>
+          <article class="stylist-card">
+            <img src="images/stylist-3.png" alt="Portrait of colorist Sofia Marin" />
+            <h3>Sofia Marin</h3>
+            <p>Master Colorist · Balayage</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Kind words</p>
+          <h2>Loved by our clients</h2>
+        </header>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <p>"Best haircut I've had in years. Ava truly listened and gave me exactly what I hoped for."</p>
+            <footer>— Elena R.</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <p>"The color work is unreal. My balayage grew out beautifully and still looks fresh months later."</p>
+            <footer>— Priya K.</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <p>"A calm, welcoming space and the booking process couldn't be simpler. My go-to salon now."</p>
+            <footer>— James T.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="section section-book" id="book">
+      <div class="container book-grid">
+        <div class="book-copy">
+          <p class="eyebrow">Reserve your seat</p>
+          <h2>Book your appointment</h2>
+          <p class="section-sub">Tell us what you're after and we'll confirm your time by email. We can't wait to see you.</p>
+          <ul class="book-info">
+            <li><strong>Address</strong><span>124 Maple Avenue, Downtown</span></li>
+            <li><strong>Phone</strong><span>(555) 012-3456</span></li>
+            <li><strong>Hours</strong><span>Tue–Sat · 9:00 AM – 7:00 PM</span></li>
+          </ul>
+        </div>
+        <form class="book-form" id="bookForm" novalidate>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="service">Service</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Choose one</option>
+                <option>Cut &amp; Style</option>
+                <option>Color &amp; Balayage</option>
+                <option>Treatments &amp; Care</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Request Booking</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark">✦</span>
+        <span class="brand-name">Luxe Studio</span>
+      </a>
+      <p>124 Maple Avenue, Downtown · (555) 012-3456</p>
+      <p class="footer-copy">© <span id="year"></span> Luxe Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
