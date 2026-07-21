@@ -6,6 +6,7 @@
   <title>Luxe Studio — Hair Salon & Booking</title>
   <meta name="description" content="Luxe Studio is an upscale hair salon offering cuts, color, and treatments. Book your appointment online with our award-winning stylists." />
   <meta name="theme-color" content="#f4ede2" />
+  <link rel="icon" href="public/icon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
@@ -16,7 +17,13 @@
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a href="#top" class="brand" aria-label="Luxe Studio home">
-        <span class="brand-mark">✦</span>
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img" focusable="false">
+            <rect x="4" y="4" width="56" height="56" rx="14" fill="#a75f3c"></rect>
+            <path d="M19 19h10c8.3 0 15 6.7 15 15v10h-6V34c0-.7-.1-1.4-.3-2.1L24.4 44.8c.1 0 .2 0 .3 0h8.3v6H24.4c-7.4 0-13.4-6-13.4-13.4V19h8.4z" fill="#fbf6ee"></path>
+            <path d="M16.7 44.2L8 34.8h8.3l12.3 12.2V34.8h6.2v21.8c0 4.7-5.7 7.4-8.3 4.7l-9.8-9.1z" fill="#fbf6ee"></path>
+          </svg>
+        </span>
         <span class="brand-name">Luxe Studio</span>
       </a>
       <nav class="main-nav" aria-label="Primary">
