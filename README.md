@@ -1,6 +1,6 @@
-# No Longer Luxe Studio
+# IbaJamal-Haircut
 
-This repository contains the landing page for "No Longer Luxe Studio" — a simple, responsive salon booking landing page built with HTML, CSS, and vanilla JavaScript.
+This repository contains the landing page for "IbaJamal-Haircut" — a simple, responsive salon booking landing page built with HTML, CSS, and vanilla JavaScript.
 
 ## What this is
 
