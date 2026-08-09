@@ -42,7 +42,7 @@
 
       var name = document.getElementById("name").value.trim();
       status.textContent =
-        "Thanks, " + name + "! We've received your request and will confirm by email shortly.";
+        "Thanks, " + name + "! We’ve received your request and will confirm your slot shortly via call or WhatsApp on +234 806 629 5902.";
       form.reset();
 
       if (dateInput) {
