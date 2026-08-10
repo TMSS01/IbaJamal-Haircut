@@ -76,6 +76,11 @@ a { color: inherit; text-decoration: none; }
 .btn-lg { padding: 15px 30px; font-size: 1rem; }
 .btn-block { width: 100%; }
 
+/* Scroll offset for anchor links */
+#book {
+  scroll-margin-top: 94px;
+}
+
 /* Header */
 .site-header {
   position: sticky;
@@ -293,8 +298,9 @@ a { color: inherit; text-decoration: none; }
   .hero-grid, .book-grid { grid-template-columns: 1fr; gap: 40px; }
   .hero-media { order: -1; }
   .service-grid, .stylist-grid, .testimonial-grid { grid-template-columns: 1fr 1fr; }
-  .main-nav, .header-cta { display: none; }
+  .main-nav { display: none; }
   .nav-toggle { display: flex; }
+  .header-cta { display: inline-flex; }
 }
 
 @media (max-width: 600px) {
