@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://martinslutherking.github.io/IbaJamal-Haircut/sitemap.xml
